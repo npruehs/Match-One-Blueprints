@@ -5,12 +5,16 @@
       <Property Key="Resource.name" Type="System.String">
         <Value>Piece0</Value>
       </Property>
+      <Property Key="ScoreValue.value" Type="System.Int32">
+        <Value>1</Value>
+      </Property>
     </Properties>
     <Components>
       <Component>GameBoardElement</Component>
       <Component>Movable</Component>
       <Component>Interactive</Component>
       <Component>Resource</Component>
+      <Component>ScoreValue</Component>
     </Components>
   </Blueprint>
   <Blueprint Id="Piece1">
@@ -18,12 +22,16 @@
       <Property Key="Resource.name" Type="System.String">
         <Value>Piece1</Value>
       </Property>
+      <Property Key="ScoreValue.value" Type="System.Int32">
+        <Value>2</Value>
+      </Property>
     </Properties>
     <Components>
       <Component>GameBoardElement</Component>
       <Component>Movable</Component>
       <Component>Interactive</Component>
       <Component>Resource</Component>
+      <Component>ScoreValue</Component>
     </Components>
   </Blueprint>
   <Blueprint Id="Piece2">
@@ -31,12 +39,16 @@
       <Property Key="Resource.name" Type="System.String">
         <Value>Piece2</Value>
       </Property>
+      <Property Key="ScoreValue.value" Type="System.Int32">
+        <Value>3</Value>
+      </Property>
     </Properties>
     <Components>
       <Component>GameBoardElement</Component>
       <Component>Movable</Component>
       <Component>Interactive</Component>
       <Component>Resource</Component>
+      <Component>ScoreValue</Component>
     </Components>
   </Blueprint>
   <Blueprint Id="Piece3">
@@ -44,12 +56,16 @@
       <Property Key="Resource.name" Type="System.String">
         <Value>Piece3</Value>
       </Property>
+      <Property Key="ScoreValue.value" Type="System.Int32">
+        <Value>4</Value>
+      </Property>
     </Properties>
     <Components>
       <Component>GameBoardElement</Component>
       <Component>Movable</Component>
       <Component>Interactive</Component>
       <Component>Resource</Component>
+      <Component>ScoreValue</Component>
     </Components>
   </Blueprint>
   <Blueprint Id="Piece4">
@@ -57,18 +73,8 @@
       <Property Key="Resource.name" Type="System.String">
         <Value>Piece1</Value>
       </Property>
-    </Properties>
-    <Components>
-      <Component>GameBoardElement</Component>
-      <Component>Movable</Component>
-      <Component>Interactive</Component>
-      <Component>Resource</Component>
-    </Components>
-  </Blueprint>
-  <Blueprint Id="Piece5">
-    <Properties>
-      <Property Key="Resource.name" Type="System.String">
-        <Value>Piece5</Value>
+      <Property Key="ScoreValue.value" Type="System.Int32">
+        <Value>5</Value>
       </Property>
     </Properties>
     <Components>
@@ -76,6 +82,24 @@
       <Component>Movable</Component>
       <Component>Interactive</Component>
       <Component>Resource</Component>
+      <Component>ScoreValue</Component>
+    </Components>
+  </Blueprint>
+  <Blueprint Id="Piece5">
+    <Properties>
+      <Property Key="Resource.name" Type="System.String">
+        <Value>Piece5</Value>
+      </Property>
+      <Property Key="ScoreValue.value" Type="System.Int32">
+        <Value>6</Value>
+      </Property>
+    </Properties>
+    <Components>
+      <Component>GameBoardElement</Component>
+      <Component>Movable</Component>
+      <Component>Interactive</Component>
+      <Component>Resource</Component>
+      <Component>ScoreValue</Component>
     </Components>
   </Blueprint>
   <Blueprint Id="Blocker">
