@@ -31,9 +31,23 @@ public class BlueprintsController : MonoBehaviour
         return blueprint;
     }
 
+    /// <summary>
+    ///   Gets the collection of available blueprints.
+    /// </summary>
+    /// <returns>All available blueprints.</returns>
+    public IEnumerable<Blueprint> GetBlueprints()
+    {
+        return this.blueprints.Values;
+    }
+
     #endregion
 
     #region Methods
+
+    private void Awake()
+    {
+        this.LoadBlueprints();
+    }
 
     [ContextMenu("Load Blueprints")]
     private void LoadBlueprints()
@@ -62,11 +76,6 @@ public class BlueprintsController : MonoBehaviour
                 }
             }
         }
-    }
-
-    private void Awake()
-    {
-        this.LoadBlueprints();
     }
 
     #endregion
