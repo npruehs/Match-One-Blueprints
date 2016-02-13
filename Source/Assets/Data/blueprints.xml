@@ -26,6 +26,58 @@
       <Component>Resource</Component>
     </Components>
   </Blueprint>
+  <Blueprint Id="Piece2">
+    <Properties>
+      <Property Key="Resource.name" Type="System.String">
+        <Value>Piece2</Value>
+      </Property>
+    </Properties>
+    <Components>
+      <Component>GameBoardElement</Component>
+      <Component>Movable</Component>
+      <Component>Interactive</Component>
+      <Component>Resource</Component>
+    </Components>
+  </Blueprint>
+  <Blueprint Id="Piece3">
+    <Properties>
+      <Property Key="Resource.name" Type="System.String">
+        <Value>Piece3</Value>
+      </Property>
+    </Properties>
+    <Components>
+      <Component>GameBoardElement</Component>
+      <Component>Movable</Component>
+      <Component>Interactive</Component>
+      <Component>Resource</Component>
+    </Components>
+  </Blueprint>
+  <Blueprint Id="Piece4">
+    <Properties>
+      <Property Key="Resource.name" Type="System.String">
+        <Value>Piece1</Value>
+      </Property>
+    </Properties>
+    <Components>
+      <Component>GameBoardElement</Component>
+      <Component>Movable</Component>
+      <Component>Interactive</Component>
+      <Component>Resource</Component>
+    </Components>
+  </Blueprint>
+  <Blueprint Id="Piece5">
+    <Properties>
+      <Property Key="Resource.name" Type="System.String">
+        <Value>Piece5</Value>
+      </Property>
+    </Properties>
+    <Components>
+      <Component>GameBoardElement</Component>
+      <Component>Movable</Component>
+      <Component>Interactive</Component>
+      <Component>Resource</Component>
+    </Components>
+  </Blueprint>
   <Blueprint Id="Blocker">
     <Properties>
       <Property Key="Resource.name" Type="System.String">
