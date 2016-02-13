@@ -53,6 +53,9 @@ namespace Entitas
                    case ComponentIds.Score:
                         entity.AddScore(blueprint.PropertyValues);
                         break;
+                   case ComponentIds.ScoreValue:
+                        entity.AddScoreValue(blueprint.PropertyValues);
+                        break;
 
                 }
             }
@@ -73,6 +76,7 @@ namespace Entitas
             { "Resource", ComponentIds.Resource },
             { "View", ComponentIds.View },
             { "Score", ComponentIds.Score },
+            { "ScoreValue", ComponentIds.ScoreValue },
 
         };
     }
