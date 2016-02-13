@@ -9,9 +9,10 @@ public static class ComponentIds {
     public const int Position = 7;
     public const int Resource = 8;
     public const int Score = 9;
-    public const int View = 10;
+    public const int ScoreValue = 10;
+    public const int View = 11;
 
-    public const int TotalComponents = 11;
+    public const int TotalComponents = 12;
 
     public static readonly string[] componentNames = {
         "Destroy",
@@ -24,6 +25,7 @@ public static class ComponentIds {
         "Position",
         "Resource",
         "Score",
+        "ScoreValue",
         "View"
     };
 
@@ -38,6 +40,7 @@ public static class ComponentIds {
         typeof(PositionComponent),
         typeof(ResourceComponent),
         typeof(ScoreComponent),
+        typeof(ScoreValueComponent),
         typeof(ViewComponent)
     };
 }
